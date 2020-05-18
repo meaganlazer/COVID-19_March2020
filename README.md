@@ -1,17 +1,23 @@
-# COVID-19 Exploration: Early spread in the US
+# COVID-19 Exploration: Early spread in Q1 2020
 Meagan Rossi & Jigme Sherpa
 
-Overview<br/>
+## Overview
+Forecast rates of confirmed, recovered and death COVID19 cases using data from the World Health Organization.
+Achieved data stationarity through log transformations and Dicky-Fuller testing.
 
-Prerequisites<br/>
-Which tools you will be using
+Description | Case Count
+------------ | -------------
+Total number of countries | 205
+Total Confirmed | 417,966
+Total Recovered | 107,705
+Total Fatalities | 18,615
 
-How to use<br/>
-How to contribute<br/>
-Contributors/Acknowledgements<br/>
+Data was collected through the csv compiled daily from Kaggle. Data was cleaned and manipulated in Python for further anaylsis with Sci-Kit Learn. 
 
-Data Sources:
-1. World Health Organization
+How did we train?
 
-Thank you!
-Please reach out to us via LinkedIn with any questions.
+## Tools<br/>
+AR, MA, ARMA and ARIMA models
+
+**Data Sources:**
+1. Kaggle: [Open Parking and Camera Violations](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
