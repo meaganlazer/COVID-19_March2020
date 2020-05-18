@@ -18,7 +18,7 @@ Total Confirmed | 417,966
 Total Recovered | 107,705
 Total Fatalities | 18,615
 
-Data was cleaned and manipulated in Python for further anaylsis with Sci-Kit Learn. Achieved data stationarity through log transformations and Dicky-Fuller testing. Model was trained through a hold-out set of one week. Related the present value of a series to past values and past prediction errors
+Data was cleaned and manipulated in Python for further anaylsis with Sci-Kit Learn. Achieved data stationarity through log transformations and Dicky-Fuller testing. Model was trained through a hold-out set of one week. We related the present value of the timeseries to past values and past prediction errors.
 
 ## Autoregressive Integrated Moving Average (Best Model)
 - Highest log likelihood
@@ -33,7 +33,7 @@ Data was cleaned and manipulated in Python for further anaylsis with Sci-Kit Lea
 - ARMA Timeseries Model
 - ARIMA Timeseries Model
 
-Data Source:
+**Data Source**
 1. Kaggle: [Novel Corona Virus 2019 Dataset](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)
 
 **Column Descriptions**
